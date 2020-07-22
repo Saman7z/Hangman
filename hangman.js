@@ -1,4 +1,4 @@
-const words = ["saman", "mamad", "afzal", "akbar"];
+const words = ["javascript", "html", "css", "python","nodejs","hangman","apple","samsung",];
 //
 let correctWords = [];
 let wrongWords = [];
