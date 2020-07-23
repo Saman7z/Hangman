@@ -11,8 +11,7 @@ const displayWords = () => {
 
 displayWords();
 
-console.log(selectedWord)
-// console.log(document.querySelector(".right-words-container").innerText.replace(/\n/g, ""))
+//console.log(selectedWord)
 
 const closeTheModal = () => {
     document.querySelector(".winning-msg-container").style.display = "none"
@@ -86,4 +85,4 @@ const inputEntered = (e) => {
 }
 //showNotification("WRONG ! Take Care");
 window.addEventListener("keydown", inputEntered)
-console.log(document.querySelectorAll(".body-svg"))
+//console.log(document.querySelectorAll(".body-svg"))
